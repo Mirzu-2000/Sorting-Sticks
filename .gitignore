@@ -34,3 +34,25 @@
 # Others
 *.vs/
 *x64/
+
+# Ignore build artifacts
+/x64/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.pch
+/Debug/
+/Release/
+
+
+
+# Ignore Visual Studio files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+.vs/
+
